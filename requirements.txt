@@ -1,5 +1,6 @@
-fastapi
+fastapi~=0.115.4
 uvicorn
-sqlalchemy
+sqlalchemy~=2.0.36
 mysql-connector-python
-passlib[bcrypt]
+passlib[bcrypt]~=1.7.4
+pydantic~=2.9.2
