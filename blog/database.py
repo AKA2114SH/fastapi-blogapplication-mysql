@@ -5,7 +5,7 @@ import os
 
 # Use environment variables for sensitive information
 DATABASE_USERNAME = os.getenv("DATABASE_USERNAME", "root")
-DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", "MYSQL2114")  #replace your sql password here
+DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", "PASSWORD")  #replace your sql password here
 DATABASE_HOST = os.getenv("DATABASE_HOST", "localhost")
 DATABASE_PORT = os.getenv("DATABASE_PORT", "3306")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "blog_db")
